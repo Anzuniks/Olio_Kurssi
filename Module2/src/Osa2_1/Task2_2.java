@@ -73,20 +73,20 @@ package Osa2_1;
 
 public class Task2_2 {
     public static void main(String[] args) {
-        Osa2_1.CarNew myCarNew;
 
-        myCarNew = new Osa2_1.CarNew("Toyota Corolla", 60.0, 20.0);
-        myCarNew.fillTank();
-        System.out.println("Tanked to: " + myCarNew.getGasolineLevel() + " liters");
+        Car myCar = new Car("Toyota Corolla", 60.0, 20.0);
+
+        myCar.fillTank();
+        System.out.println("Tanked to: " + myCar.getGasolineLevel() + " liters");
 
         for (int i = 0; i < 6; i++) {
-            myCarNew.accelerate();
-            System.out.println(myCarNew.getTypeName() + ": speed is " + myCarNew.getSpeed() + " km/h");
+            myCar.accelerate();
+            System.out.println(myCar.getTypeName() + ": speed is " + myCar.getSpeed() + " km/h");
         }
 
-        while (myCarNew.getSpeed() > 0) {
-            myCarNew.decelerate(15);
-            System.out.println(myCarNew.getTypeName() + ": speed is " + myCarNew.getSpeed() + " km/h");
+        while (myCar.getSpeed() > 0) {
+            myCar.decelerate(15);
+            System.out.println(myCar.getTypeName() + ": speed is " + myCar.getSpeed() + " km/h");
         }
     }
 }
