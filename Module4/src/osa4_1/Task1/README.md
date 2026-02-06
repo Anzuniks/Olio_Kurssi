@@ -1,6 +1,6 @@
 #Calculator Project 
 
-This is a simple calculator project that allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. The project is implemented in Python and provides a user-friendly interface for inputting numbers and selecting the desired operation.
+This is a simple calculator project that allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. The project is implemented in Java and provides a user-friendly interface for inputting numbers and selecting the desired operation.
 
 ## Lähdekoodi
 
